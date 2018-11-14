@@ -9537,6 +9537,11 @@ nav .container .row .col-3:hover {
   text-decoration: none;
 }
 
+section .container .blockgris {
+  background-color: lightgray;
+  padding: 35px;
+}
+
 .container {
   max-width: 90% !important;
 }

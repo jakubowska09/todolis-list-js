@@ -1,7 +1,7 @@
 header{
     .container{
         .blockbleu{
-            background-color: #1E6CE1;
+            background-color: $bleu;
             padding: 10px;
             margin-top: 75px;
                 h1 {
@@ -27,6 +27,14 @@ nav{
                 }
                     
             }
+        }
+    }
+}
+section{
+    .container{
+        .blockgris{
+            background-color:lightgray;
+            padding: 35px;
         }
     }
 }
