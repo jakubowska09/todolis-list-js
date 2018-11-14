@@ -9542,6 +9542,11 @@ section .container .blockgris {
   padding: 35px;
 }
 
+#demoex2 .container .blockgris2 {
+  background-color: lightgray;
+  padding: 35px;
+}
+
 .container {
   max-width: 90% !important;
 }
