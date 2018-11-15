@@ -19,18 +19,13 @@ nav{
                 a{
                     font-family: 'Courier New', Courier, monospace;
                 }
-                &:hover{
-                    color: white;
-                    background-color: $bleu;
-                    text-decoration: none;
-                    
-                }
-                    
+                                   
             }
         }
     }
 }
 section{
+    display: none;
     .container{
         .blockgris{
             background-color:lightgray;
@@ -38,9 +33,25 @@ section{
         }
     }
 }
-#demoex2{
+#exo2{
+    
     .container{
         .blockgris2{
+            background-color:lightgray;
+            padding: 35px;
+        }
+    }
+    
+}
+
+.active {
+    display: block;
+}
+
+section {
+    display: none;
+    .container{
+        .blockgris3{
             background-color:lightgray;
             padding: 35px;
         }
