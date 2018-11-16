@@ -7,3 +7,19 @@ function planquer() {
 
 }
 bt4.addEventListener("click", planquer);
+
+
+let cmt = 0;
+
+function bouge() {
+
+    document.querySelector(".un").classList.toggle("d-none");
+    document.querySelector(".deux").classList.toggle("d-none");
+    cmt = cmt + 1;
+    document.querySelector(".texte").innerText = cmt;
+
+
+}
+
+document.querySelector(".une").addEventListener("click", bouge);
+

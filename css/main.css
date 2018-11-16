@@ -9573,7 +9573,7 @@ section .container .blockgris4 .row .col-5 .carrebleu {
   background-color: blue;
   margin-left: 35px;
   margin-right: 35px;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 section .container .blockgris4 .row .col-5 .carrebleu .carrered {
@@ -9582,6 +9582,10 @@ section .container .blockgris4 .row .col-5 .carrebleu .carrered {
   width: 50px;
   position: relative;
   margin: auto;
+}
+
+section .container .blockgris4 .row .col-5 .carrebleu .carrered .none {
+  display: none;
 }
 
 .container {
