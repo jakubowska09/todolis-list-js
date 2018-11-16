@@ -9597,6 +9597,29 @@ section .container .blockgris5 {
   padding: 35px;
 }
 
+section {
+  display: none;
+}
+
+section .container .blockgris6 {
+  background-color: lightgray;
+  padding: 35px;
+}
+
+section .container .blockgris6 .niveau1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+section .container .blockgris6 .niveau2 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+section .container .blockgris6 .niveau2 .black {
+  background-color: black;
+  border-radius: 20px;
+  padding: 15px;
+}
+
 .container {
   max-width: 90% !important;
 }

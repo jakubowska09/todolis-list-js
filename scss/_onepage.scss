@@ -99,3 +99,24 @@ section{
         }
     }
 }
+section{
+    display: none;
+    .container{
+        .blockgris6{
+            background-color:lightgray;
+            padding: 35px;
+            .niveau1{
+                font-family: 'Courier New', Courier, monospace;
+            }
+            .niveau2{
+                font-family: 'Courier New', Courier, monospace;
+                .black{
+                    background-color: black;
+                    border-radius: 20px;
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}
+
