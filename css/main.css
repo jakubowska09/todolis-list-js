@@ -9588,6 +9588,15 @@ section .container .blockgris4 .row .col-5 .carrebleu .carrered .none {
   display: none;
 }
 
+section {
+  display: none;
+}
+
+section .container .blockgris5 {
+  background-color: lightgray;
+  padding: 35px;
+}
+
 .container {
   max-width: 90% !important;
 }
