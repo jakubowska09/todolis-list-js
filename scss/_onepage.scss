@@ -57,3 +57,34 @@ section {
         }
     }
 }
+section{
+    display: none;
+    .container{
+        .blockgris4{
+            background-color:lightgray;
+            padding: 35px;
+            .row{
+                .col-5{
+                    .carrebleu{
+                        height: 300px;
+                        width: 400px;
+                        background-color: blue;
+                        margin-left: 35px;
+                        margin-right: 35px;
+                        padding-top: 150px;
+                        .carrered{
+                            background-color: red; 
+                            height: 50px;
+                            width: 50px;
+                            position: relative;
+                            margin: auto;
+                            
+                        }
+                    }
+                   
+                    
+                }
+            }
+        }
+    }
+}

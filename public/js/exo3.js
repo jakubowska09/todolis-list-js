@@ -10,3 +10,10 @@ bt3.addEventListener("click", donate);
 
 
 
+
+let bt = document.getElementById("tutu");
+function affiche() {
+    var x = document.getElementById("formulaire").value;
+    document.getElementById("reponse").innerText = x;
+}
+bt.addEventListener("click", affiche);

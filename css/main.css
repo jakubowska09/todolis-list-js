@@ -9558,6 +9558,32 @@ section .container .blockgris3 {
   padding: 35px;
 }
 
+section {
+  display: none;
+}
+
+section .container .blockgris4 {
+  background-color: lightgray;
+  padding: 35px;
+}
+
+section .container .blockgris4 .row .col-5 .carrebleu {
+  height: 300px;
+  width: 400px;
+  background-color: blue;
+  margin-left: 35px;
+  margin-right: 35px;
+  padding-top: 100px;
+}
+
+section .container .blockgris4 .row .col-5 .carrebleu .carrered {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  margin: auto;
+}
+
 .container {
   max-width: 90% !important;
 }
