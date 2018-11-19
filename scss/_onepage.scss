@@ -112,8 +112,11 @@ section{
                 font-family: 'Courier New', Courier, monospace;
                 .black{
                     background-color: black;
-                    border-radius: 20px;
-                    padding: 15px;
+                    border-radius: 15px;
+                    padding: 35px;
+                    .para{
+                        right: 0;
+                    }
                 }
             }
         }

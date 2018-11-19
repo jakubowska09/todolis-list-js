@@ -9616,8 +9616,12 @@ section .container .blockgris6 .niveau2 {
 
 section .container .blockgris6 .niveau2 .black {
   background-color: black;
-  border-radius: 20px;
-  padding: 15px;
+  border-radius: 15px;
+  padding: 35px;
+}
+
+section .container .blockgris6 .niveau2 .black .para {
+  right: 0;
 }
 
 .container {
