@@ -9624,6 +9624,21 @@ section .container .blockgris6 .niveau2 .black .para {
   right: 0;
 }
 
+section {
+  display: none;
+}
+
+section .container div h3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+section .container div input {
+  border: 2px blue solid;
+  width: 500px;
+  font-size: 15px;
+}
+
 .container {
   max-width: 90% !important;
 }

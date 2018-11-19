@@ -122,4 +122,19 @@ section{
         }
     }
 }
-
+section{
+    display: none;
+    .container{
+        div{
+            h3{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 50px;
+            }
+            input{
+               border: 2px blue solid;
+               width: 500px;
+               font-size: 15px;
+            }
+        }
+    }
+}
