@@ -9634,9 +9634,23 @@ section .container div h3 {
 }
 
 section .container div input {
-  border: 2px blue solid;
-  width: 500px;
-  font-size: 15px;
+  width: 250px;
+}
+
+section .container div .imput {
+  border: 0.1px solid black;
+  border-radius: 0;
+  width: 350px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+section .container #ecrire .contour {
+  border: solid 2px white;
+  border-radius: 15px;
+  background-color: lightblue;
+  padding: 25px;
+  font-size: 25px;
 }
 
 .container {
