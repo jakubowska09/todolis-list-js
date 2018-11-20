@@ -143,12 +143,19 @@ section{
             }
         }
         #ecrire{
+            
             .contour{
                 border: solid 2px white;
                 border-radius: 15px;
                 background-color: lightblue;
-                padding: 25px; 
-                font-size: 25px;
+                padding: 15px; 
+                font-size: 19px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .blue{
+                background: blue;
             }
         }
     }

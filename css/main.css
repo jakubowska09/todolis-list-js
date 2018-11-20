@@ -9649,8 +9649,18 @@ section .container #ecrire .contour {
   border: solid 2px white;
   border-radius: 15px;
   background-color: lightblue;
-  padding: 25px;
-  font-size: 25px;
+  padding: 15px;
+  font-size: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .container #ecrire .blue {
+  background: blue;
 }
 
 .container {
