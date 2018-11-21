@@ -9645,6 +9645,22 @@ section .container div .imput {
   font-size: 16px;
 }
 
+section .container .error ::-webkit-input-placeholder {
+  color: red;
+}
+
+section .container .error :-ms-input-placeholder {
+  color: red;
+}
+
+section .container .error ::-ms-input-placeholder {
+  color: red;
+}
+
+section .container .error ::placeholder {
+  color: red;
+}
+
 section .container #ecrire .contour {
   border: solid 2px white;
   border-radius: 15px;

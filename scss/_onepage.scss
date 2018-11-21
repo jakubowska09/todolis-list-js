@@ -126,6 +126,7 @@ section{
     display: none;
     .container{
         div{
+            
             h3{
                 font-family: 'Courier New', Courier, monospace;
                 font-size: 50px;
@@ -134,12 +135,18 @@ section{
                 width: 250px;
                 
             }
+            
             .imput{
                 border: 0.1px solid black;
                 border-radius: 0;
                 width: 350px;
                 padding: 10px;
                 font-size: 16px;
+            }
+        }
+        .error{
+            ::placeholder{
+                color: red;
             }
         }
         #ecrire{
